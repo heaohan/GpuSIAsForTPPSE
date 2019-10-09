@@ -1,0 +1,15 @@
+﻿  main.cpp
+d:\research\code\upload\sias_c++\pso\main.cpp(23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\pso\main.cpp(23): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\pso\main.cpp(44): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  mat_rw.cpp
+  pso_m.cpp
+d:\research\code\upload\sias_c++\pso\pso_m.cpp(329): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+  Generating code
+  All 724 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PSO.vcxproj -> D:\research\code\upload\SIAs_c++\x64\Release\PSO.exe

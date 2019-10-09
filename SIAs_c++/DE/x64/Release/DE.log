@@ -1,0 +1,21 @@
+﻿  de.cpp
+d:\research\code\upload\sias_c++\de\de.cpp(118): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+d:\research\code\upload\sias_c++\de\de.cpp(141): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+  main.cpp
+d:\research\code\upload\sias_c++\de\main.cpp(26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\de\main.cpp(26): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\de\main.cpp(53): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\de\main.cpp(54): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  mat_rw.cpp
+  Generating code
+  All 137 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DE.vcxproj -> D:\research\code\upload\SIAs_c++\x64\Release\DE.exe

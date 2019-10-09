@@ -1,0 +1,25 @@
+﻿  Compiling CUDA source file g_de.cu...
+  
+  D:\research\code\upload\SIAs_c++\GPU_DE>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"$MatlabDir\extern\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc141.pdb /FS /Zi  /MD " -o x64\Release\g_de.cu.obj "D:\research\code\upload\SIAs_c++\GPU_DE\g_de.cu" 
+  g_de.cu
+D:/research/code/upload/SIAs_c++/GPU_DE/g_de.cu(360): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+D:/research/code/upload/SIAs_c++/GPU_DE/g_de.cu(390): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+  main.cpp
+d:\research\code\upload\sias_c++\gpu_de\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\gpu_de\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\gpu_de\main.cpp(45): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\gpu_de\main.cpp(46): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  mat_rw.cpp
+     Creating library D:\research\code\upload\SIAs_c++\x64\Release\GPU_DE.lib and object D:\research\code\upload\SIAs_c++\x64\Release\GPU_DE.exp
+  Generating code
+  All 100 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GPU_DE.vcxproj -> D:\research\code\upload\SIAs_c++\x64\Release\GPU_DE.exe

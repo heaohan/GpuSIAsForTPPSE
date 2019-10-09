@@ -1,0 +1,17 @@
+﻿  firefly.cpp
+d:\research\code\upload\sias_c++\lfa\firefly.h(23): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\lfa\firefly.cpp(220): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+  main.cpp
+d:\research\code\upload\sias_c++\lfa\firefly.h(23): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\lfa\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\research\code\upload\sias_c++\lfa\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+d:\research\code\upload\sias_c++\lfa\main.cpp(45): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  mat_rw.cpp
+  Generating code
+  All 154 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  LFA.vcxproj -> D:\research\code\upload\SIAs_c++\x64\Release\LFA.exe
