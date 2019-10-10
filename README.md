@@ -12,9 +12,9 @@ There are some requirements for compiling the code:
 
 To run the code, MATLAB should be installed in the computer.
 
-/simulation/sample_generation stores the code and data of the simulated interferograms.
-/experiment/sample_generation stores the data and image of the experimental interferograms.
+/simulation/sample_generation stores the code and data of the simulated interferograms. (including for_c.mat)
+/experiment/sample_generation stores the data and images of the experimental interferograms. (including for_c.mat)
 
 The compiled .exe files have been listed in the folder x64/Release or /SIAs_c++/generated_exe. Copy the for_c.mat to either folder, edit the run20.ps1 to chose the .exe to run. When run run20.ps1, certain .exe will run for 20 times, and folders 1 to 20 will be generated, which are the 20 runs results by a certain .exe.
 
-/results show the results with the interferograms. Run furtherProcess.m or furtherProcessBatch.m in the /simulation/post_processing or /experiment/post_processing, for the simulation results (/results/sim*) or experiment results (/results/exp*), respectively. For furtherProcess.m, when the folder selection dialog window pops up after running, select the inner folder, e.g., /results/exp1/APSO/1, while for furtherProcessBatch.m, select the outer folder, e.g., /results/exp1/APSO.
+/results show the results with the interferograms. Run furtherProcess.m or furtherProcessBatch.m in the /simulation/post_processing or /experiment/post_processing, for the simulation results (/results/sim*) or experiment results (/results/exp*), respectively. For furtherProcess.m, when the folder selection dialog window pops up after running, select the inner folder, e.g., /results/exp1/APSO/1, while for furtherProcessBatch.m, select the outer folder, e.g., /results/exp1/APSO. For furtherProcess.m in the /experiment/post_processing, if choose the PSI, can chose the phase shifted interferograms in /results/sample_generation, e.g., (meanRec_1_cutted.bmp, meanRec_111_cutted.bmp, meanRec_139_cutted.bmp, meanRec_168_cutted.bmp) in /results/sample_generation/sample1.
