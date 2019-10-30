@@ -1,5 +1,5 @@
-# GpuSIAsForTPPSE
-This repository includes code and data for SIAs assisted TPPSE.
+# GpuSIAsForTPRPSE
+This repository includes code and data for SIAs assisted TPRPSE.
 
 /SIAs_c++ includes the C++ code of the SIAs. The code is compiled by Visual C++ 2017 and CUDA 10.0. There is a solution: SIAs_c++.sln in this folder. 7 projects are included in the solution: PSO, APSO, DE, LFA, GPU_APSO, GPU_DE, GPU_LFA.
 
